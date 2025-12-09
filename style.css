@@ -1,0 +1,39 @@
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: linear-gradient(90deg, #0d6efd, #3b82f6);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Projetos modernos */
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+}
+.foto-quadrada{
+
+    width: 250px;       
+    height: 250px;      
+    object-fit: cover;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

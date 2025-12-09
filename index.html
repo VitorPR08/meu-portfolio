@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfólio - Vitor Ribeiro</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- CSS próprio -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vitor Ribeiro</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Alternar navegação"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header id="home" class="py-5 text-center bg-primary text-white">
+        <div class="container">
+            <h1 class="display-4">Vitor Ribeiro</h1>
+            <p class="lead">Desenvolvedor Full-Stack | C, Java, Python, HTML, CSS, JavaScript</p>
+            <p class="fst-italic">"Disposto sempre a aprender, em constante evolução."</p>
+        </div>
+    </header>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Sobre Mim</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img src="img/foto-vitor.jpg" alt="Foto de Vitor Ribeiro" class="foto-quadrada" />
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Estou no terceiro ano do ensino médio, que realizo no período matutino, e no período vespertino faço o curso técnico em Informática da Escola Mesquita. Este curso oferece uma formação prática e abrangente, focada no desenvolvimento, implementação e manutenção de sistemas computacionais. Com domínio de linguagens de programação e ambientes adequados, sou capaz de criar aplicações, projetar bancos de dados relacionais e gerenciar redes de computadores, atendendo às necessidades de empresas de diversos setores.
+                    </p>
+                    <p>
+                        Disposto sempre a aprender e em constante evolução, busco oportunidades para aplicar meus conhecimentos e crescer profissionalmente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Habilidades</h2>
+
+            <div class="row">
+                <!-- Habilidades Pessoais -->
+                <div class="col-md-6 mb-4">
+                    <h4>Habilidades Pessoais</h4>
+                    <ul>
+                        <li>Sociável</li>
+                        <li>Disposto a ajudar os colegas</li>
+                        <li>Organização</li>
+                        <li>Disciplinado</li>
+                    </ul>
+                </div>
+
+                <!-- Habilidades Profissionais -->
+                <div class="col-md-6 mb-4">
+                    <h4>Habilidades Profissionais</h4>
+
+                    <h6>Back-end</h6>
+                    <ul>
+                        <li>C</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+
+                    <h6>Front-end / Ferramentas Web</h6>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li><a href="https://github.com/VitorPR08" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    </ul>
+
+                    <h6>Idiomas</h6>
+                    <ul>
+                        <li>Inglês – Nível C2</li>
+                        <li>Português – Nível C1</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">Projetos</h2>
+            <div class="row g-4">
+                <!-- Projeto 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="img/imgsprojeto.png" class="card-img-top" alt="Projeto Loja de Bicicletas" />
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto Java - Loja de Bicicletas</h5>
+                            <p class="card-text">
+                                Projeto em Java com conexão a banco de dados MySQL, desenvolvido para gerenciar uma loja de bicicletas. Possui interface gráfica amigável e funcionalidades completas de CRUD (Criar, Ler, Atualizar e Deletar) para controle de produtos, clientes e vendas.
+                            </p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            
+                            <a href="https://github.com/VitorPR08/bicicletario" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Nome</label>
+                    <input type="text" class="form-control" placeholder="Seu nome" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">E-mail</label>
+                    <input type="email" class="form-control" placeholder="vitorpinzon3@email.com" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Mensagem</label>
+                    <textarea class="form-control" rows="4"></textarea>
+                </div>
+                <button class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-3 text-center bg-dark text-white">
+        <p>© 2025 Vitor Ribeiro</p>
+        <a href="mailto:vitorpinzon3@email.com" class="text-white me-3">Email</a>
+        <a href="https://github.com/VitorPR08" target="_blank" class="text-white me-3" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.instagram.com/vitorr.pinzon/" target="_blank" class="text-white" rel="noopener noreferrer">Instagram</a>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
